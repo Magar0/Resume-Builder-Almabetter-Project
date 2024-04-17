@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.color-blue {
+  color: #17a2b8;
+}
+.bg-grey {
+  background-color: #f8f9fa;
+}
+/* ========== Scrollbar ========== */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* ============================== */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.top-image {
+  min-height: 150px;
+  background-image: url("../public/images/background-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-column {
+  height: 75px;
+}
+.profile-image {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: -75px;
+  border: 4px solid white;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ========== Navbar ========== */
+nav .active {
+  border-bottom: 2px solid darkblue;
+  font-weight: 700;
+}
+
+/* ========== Edit Button ========== */
+.edit {
+  margin: 10px;
+  padding: 5px;
+  color: #555;
+  transition: 0.4s;
+  border: none;
+}
+.edit:hover {
+  color: #17a2b8;
+  background-color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ========== Tag ========== */
+.tag {
+  padding: 2px 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+.technology {
+  padding: 2px 10px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+.dropdown-list {
+  min-height: 200px;
+  overflow-y: scroll;
+}
+.delete {
+  transition: 0.4s;
+}
+.delete:hover {
+  color: #dc3545;
+  background-color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ========== PDF ========== */
+
+.font-bold {
+  font-size: 40px;
+  font-weight: 900;
+}
+.font-thin {
+  font-size: 40px;
+  font-weight: 100;
+}
+.firstname {
+  position: relative;
+  top: 20px;
+}
+.title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.bg-1 {
+  background-color: antiquewhite;
+}
+.bg-2 {
+  background-color: rgb(49, 49, 49);
+}
+.bg-3 {
+  background-color: rgb(77, 77, 77);
+}
+.pdf {
+  width: 210mm;
+  height: 297mm;
+}
+.pdf-profile-image {
+  height: 150px;
+  width: 150px;
+  border: 4px solid white;
+  object-fit: cover;
+  border-radius: 50%;
+}

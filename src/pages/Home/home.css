@@ -1,0 +1,89 @@
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.container1 h4 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.template1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.2s;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.template1:hover {
+  transform: translateY(-10px);
+}
+
+.template-image-container1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.template-image1 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.template1:hover .template-image1 {
+  transform: scale(1.1);
+}
+
+.template-content1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none; /* Initially hide the content */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.template1:hover .template-content1 {
+  display: flex; /* Show the content on hover */
+}
+
+.template-name1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.template-description1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+.select-button1 {
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.select-button1:hover {
+  background-color: #0056b3;
+}

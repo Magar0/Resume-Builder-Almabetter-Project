@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  background-color: gray;
+}
+
+.errorBox {
+  background-color: #fff;
+  color: red;
+  padding: 50px 100px;
+}
